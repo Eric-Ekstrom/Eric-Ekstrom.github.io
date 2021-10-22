@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ASK ansökning</title>
+</head>
+<style>
+label{
+color:gold;
+text-decoration: goldenrod;
+}
+body{
+    background-image: url("bilder/snyggast\ loggan.png");
+    background-color: black;
+}
+
+</style>
+<body>
+    <h2>ASK medlemskap formulär</h2>
+
+<form>
+
+<label for="Förnamn">Förnamn:</label>
+<br>
+<input type="text"  id="Förnamn"  name="Förnamn" placeholder="Förnamn" required>
+<br><br>
+<label for="Efternamn">Efternamn:</label>
+<br>
+<input type="text"  id="Efternamn"  name="Efternamn" placeholder="Efternamn" required> 
+<br><br>
+<label for="email">Email:</label>
+<br>
+<input type="email"  id="email"  name="email" placeholder="email" required>
+<br><br>
+<label for="Födelsedatum">Födelsedatum</label>
+<input type="date" id="Födelsedatum" name="Födelsedatum" required>
+<br><br>
+<p>Kön:</p>
+<input type="radio"  name="kön" value="Man" id="Man">
+<label for="Man">Man</label>
+<br>
+<input type="radio"  name="kön" value="Kvinna"  id="Kvinna">
+<label for="Kvinna">Kvinna</label>
+<br>
+<input type="radio"  name="kön" value="Ickebinär"  id="Ickebinär">
+<label for="Ickebinär">Ickebinär</label>
+<br>
+<input type="radio"  name="kön" value="Annat"  id="Annat">
+<label for="Annat">Annat</label>
+<br><br>
+<label for="lösenord">Lösenord:</label>
+<br>
+<input type="password"  id="lösenord" name="lösenord" placeholder="välj lösenord" required>
+<br><br><br>
+<input type="submit" value="skicka in formulär">
+<br><br><br>
+<a href="index.html">Gå tillbaka</a>
+
+<!--
+<br><br><br>
+
+
+<label for="fråga">Fråga om AIK hockey:</label>
+<select name="Fråga" id="Fråga">
+    <option value="f1">Hur många sm-guld har AIK vunnit i is-hockey?</option>
+    <option value="f2">Hur många säsonger har AIK spelat i högsta divisionen?</option>
+    <option value="f3">Vilket år grundades AIK hockey?</option>
+    
+</select>
+<br><br>
+<label for="svar">Ditt svar:</label>
+<input type="text" id="svar" name="svar">
+-->
+
+</form>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
